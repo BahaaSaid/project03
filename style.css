@@ -1,0 +1,317 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+body{background:#f5f7fb;color:#1b1c33}
+a{text-decoration:none;color:inherit}
+img{width:100%;display:block;border-radius:14px}
+.container{width:90%;max-width:1200px;margin:auto}
+.header{background:#fff;padding:18px 0;box-shadow:0 2px 6px rgba(0,0,0,.05)}
+.header .container{display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:22px;font-weight:700;color:#002b6b}
+.nav a{margin:0 14px;color:#444;font-weight:500}
+.icons{display:flex;gap:14px}
+.hero{padding:80px 0}
+.hero-content{
+    background-color: #9e9d9d;
+    display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.hero-text h1{font-size:40px;line-height:50px}
+.hero-text span{color:#0b49ae}
+.hero-text p{margin:22px 0;color:#555;max-width:520px}
+.btn{background:#0b49ae;color:#fff;border:none;padding:14px 32px;border-radius:10px;cursor:pointer}
+.section{padding:80px 0}
+.section-title{text-align:center;margin-bottom:45px}
+.offer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.offer-box{background:#fff;padding:28px;border-radius:16px;box-shadow:0 2px 15px rgba(0,0,0,.05)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.card{background:#fff;padding:18px;border-radius:16px;box-shadow:0 2px 15px rgba(0,0,0,.05)}
+.card h3{margin:14px 0 6px}
+.choose-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.choose-box{background:#fff;padding:26px;border-radius:16px;box-shadow:0 2px 15px rgba(0,0,0,.05)}
+.students-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.student{background:#fff;padding:22px;border-radius:16px;box-shadow:0 2px 15px rgba(0,0,0,.05)}
+.courses-hero{background:#eef2f8;padding:100px 0;text-align:center}
+.category{margin-bottom:70px}
+.category h3{margin-bottom:24px}
+.course-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.details-layout{display:grid;grid-template-columns:2.2fr .8fr;gap:40px}
+.details-main section{margin-bottom:50px}
+.details-main h3{margin-bottom:14px}
+.details-main p{color:#555;line-height:1.8;max-width:760px}
+.list{margin-top:16px}
+.list li{margin-bottom:10px;color:#444}
+.price-box{background:#fff;padding:26px;border-radius:16px;box-shadow:0 2px 15px rgba(0,0,0,.05);position:sticky;top:20px}
+.price-box h4{margin-bottom:12px}
+.price-box p{margin-bottom:16px}
+.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.footer{background:#0b1d3a;color:#fff;text-align:center;padding:90px 0;margin-top:80px}
+.footer h2{margin-bottom:20px}
+.socials{display:flex;justify-content:center;gap:18px;margin:24px 0}
+.socials a{width:42px;height:42px;border-radius:50%;background:#fff;color:#0b1d3a;display:flex;align-items:center;justify-content:center;font-size:18px}
+.footer p{opacity:.7;margin-top:14px;font-size:14px}
+.pp{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 220px;
+height: 35px;
+
+background: #E1AF00;
+border-radius: 8px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.testimonials {
+    padding: 80px 0;
+    text-align: center;
+    background: #f9fbff;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0b1d3a;
+    margin-bottom: 50px;
+}
+
+.testimonials-grid {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.testimonial img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.courses1 {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.courses1 img {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 25px;
+}
+
+.courses1 p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #4a4a4a;
+    max-width: 720px;
+    margin: auto;
+}
+/*****/
+.about-hero img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-text {
+    max-width: 760px;
+    margin: 0 auto 60px;
+    line-height: 1.9;
+    color: #555;
+    font-size: 16px;
+}
+
+.mission-vision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.team-section {
+    background: #f5f7fb;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+    margin-bottom: 60px;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 14px;
+}
+
+.team-card h4 {
+    margin-bottom: 4px;
+}
+
+.team-card span {
+    font-size: 14px;
+    color: #777;
+}
+
+.team-card p {
+    font-size: 13px;
+    color: #555;
+    margin-top: 6px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+}
+
+.stat {
+    text-align: center;
+    font-size: 15px;
+}
+
+.stat strong {
+    display: block;
+    margin-top: 6px;
+    font-size: 20px;
+    color: #0b49ae;
+}
+/***/
+.course-hero {
+padding: 80px 0;
+}
+
+.course-head {
+display: grid;
+grid-template-columns: 1.5fr 1fr;
+gap: 50px;
+}
+
+.course-info img {
+margin-top: 20px;
+border-radius: 14px;
+}
+
+.course-side {
+display: flex;
+flex-direction: column;
+gap: 26px;
+}
+
+.instructor-box,
+.price-box2,
+.white-box {
+background: #fff;
+padding: 26px;
+border-radius: 16px;
+box-shadow: 0 2px 15px rgba(0,0,0,.05);
+}
+
+.instructor-top {
+display: flex;
+align-items: center;
+gap: 14px;
+margin-bottom: 14px;
+}
+
+.instructor-top img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.rating {
+margin: 10px 0;
+font-size: 15px;
+}
+
+.rating span {
+opacity: .7;
+}
+
+.price-tag {
+font-size: 22px;
+font-weight: 700;
+margin: 12px 0;
+}
+
+.inst-mini {
+display: flex;
+align-items: center;
+gap: 14px;
+margin-top: 14px;
+}
+
+.inst-mini img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.note {
+opacity: .7;
+font-size: 13px;
+margin-top: 10px;
+}
+
+.white-box ol {
+line-height: 2;
+}
+
+.learn-list {
+line-height: 2;
+color: #444;
+}
+
+.reviews-section {
+padding: 80px 0;
+background: #f9fbff;
+text-align: center;
+}
+
+.reviews-grid {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 26px;
+margin-top: 30px;
+}
+
+.review-card {
+background: #fff;
+padding: 22px;
+border-radius: 16px;
+box-shadow: 0 2px 15px rgba(0,0,0,.05);
+}
+
+.stars {
+margin: 6px 0 10px;
+}
